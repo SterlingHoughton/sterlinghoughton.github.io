@@ -1,0 +1,335 @@
+
+body {
+	font: 200%/1.5 'Raleway', sans-serif;
+	color: #000;
+	background-color: #f4f2f0;
+}
+
+#preloader {
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#fff;
+    z-index:99;
+}
+
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-image:url(../img/status.gif);
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px 0 0 -100px;
+}
+
+#hero {
+	height: 100vh;
+	background: url(../img/1.jpg) no-repeat center center;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.overlay {
+	background-color: rgba(0, 0, 0, 0.6);
+	height: 100vh;
+	zoom: 1;
+	width: 100%;
+	padding-bottom: 20px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	display: -webkit-flex;
+	display: flex;
+	display: -o-flex
+	-webkit-flex-direction: column;
+	flex-direction: column;
+	-o-flex-direction: column;
+	-webkit-justify-content: center;
+	justify-content: center;
+	-o-justify-content: center;
+}
+
+#hero h1 {
+	font-size: 110px;
+	letter-spacing: 10px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+#hero p {
+	font-size: 90px;
+	letter-spacing: 15px;
+	text-align: center;
+	padding-top: 80px;
+	color: rgba(255, 255, 255, 0.8);
+}
+
+#intro {
+	padding-top: 105px;
+	padding-bottom: 105px;
+}
+
+#intro h1 {
+	font-size: 4.0rem;
+	letter-spacing: 1.5px;
+	line-height: 130%;
+	margin: 0 0 10px;
+	padding: 0;
+	color: #000;
+	font-weight: 400;
+}
+
+#dawn {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+}
+
+#about {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #fff;
+}
+
+#about p {
+	color: #A5A8AA;
+	letter-spacing: 1.5px;
+}
+
+#about h1 {
+	margin-top: 60px;
+	font-size: 24px;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+}
+
+#about li {
+	color: #A5A8AA;
+}
+
+#footer {
+	background-color: #fff;
+/*	padding-top: 10px;
+*/	padding-bottom: 120px;
+}
+
+#footer p {
+	font-size: .8em;
+	color: #A5A8AA;
+	font-weight: 500;
+}
+
+.freelance h2 {
+	font-size: 4rem;
+	text-transform: none;
+	letter-spacing: 1.5px;
+	line-height: 115%;
+	margin: 70px 0 10px;
+	padding: 0;
+	color: #E67E22;
+	font-weight: 400;
+}
+
+.img-circle {
+	display: block;
+	max-width: 150px;
+	margin: 30px auto 30px;
+	border-radius: 100%;
+}
+
+a:hover, a:focus {
+	color: #D35400;
+	text-decoration: none;
+}
+
+.black {
+	color: #000;
+}
+
+.devicons {
+	font-size: 27px;
+	margin: 0 2px;
+	vertical-align: middle;
+}
+
+#dawn {
+	-webkit-animation-duration: 2.5s;
+	-webkit-animation-delay: 0.5s;
+	-webkit-animation-iteration-count: infinite;
+}
+
+.wow {
+	-webkit-animation-duration: 2.7s;
+}
+
+.share {
+	  width: 50%;
+    margin: 0 auto;
+		padding-top: 10px;
+}
+
+@media screen and (max-width:767px) {
+
+	body {
+	font: 160%/1.5 'Raleway', sans-serif;
+	}
+
+	.headline h1 {
+	font-size: 3em;
+	}
+
+	.headline p {
+	font-size: 16px;
+	}
+
+	#hero {
+	height: 450px;
+	}
+	.overlay {
+	height: 450px;
+	}
+
+	#intro {
+		padding: 60px 0;
+	}
+
+	#intro h1 {
+		font-size: 2.2rem
+	}
+
+	#about {
+		padding-top: 0;
+	}
+
+	#about h1 {
+		font-size: 18px;
+	}
+
+	h3 {
+		font-size: 16px;
+	}
+
+	p {
+		font-size: 14px;
+	}
+
+	li p {
+		font-size: 14px;
+	}
+
+	.freelance h2 {
+		font-size: 2.5rem;
+	}
+
+	#footer {
+		padding-bottom: 50px;
+	}
+}
+@media(min-width:768px) and (max-width: 991px){
+	body {
+	font: 180%/1.5 'Raleway', sans-serif;
+	}
+
+	.headline h1 {
+	font-size: 4.5em;
+	}
+
+	.headline p {
+	font-size: 18px;
+	}
+
+	.overlay {
+
+	}
+
+	#intro {
+		padding: 100px 0;
+	}
+
+	#intro h1 {
+		font-size: 3rem
+	}
+
+	#about {
+		padding-top: 10px;
+	}
+
+	#about h1 {
+		font-size: 24px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	li p {
+		font-size: 18px;
+	}
+
+	.freelance h2 {
+		font-size: 3.5rem;
+	}
+}
+@media (min-width: 992px) and (max-width: 1199px) {
+	body {
+	font: 180%/1.5 'Raleway', sans-serif;
+	}
+
+	.headline h1 {
+	font-size: 5em;
+	}
+
+	.headline p {
+	font-size: 21px;
+	}
+
+	.overlay {
+
+	}
+
+	#intro {
+		padding: 100px 0;
+	}
+
+	#intro h1 {
+		font-size: 3rem
+	}
+
+	#about {
+		padding-top: 10px;
+	}
+
+	#about h1 {
+		font-size: 24px;
+	}
+
+	h3 {
+		font-size: 18px;
+	}
+
+	p {
+		font-size: 18px;
+	}
+
+	li p {
+		font-size: 18px;
+	}
+
+	.freelance h2 {
+		font-size: 3.5rem;
+	}
+}
+@media(min-width:1200px){}

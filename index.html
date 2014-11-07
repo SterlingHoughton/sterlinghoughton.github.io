@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="Sterling Houghton's personal site / portfolio">
+    <meta name="author" content="Sterling Houghton">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Sterling Houghton | Full-Stack Web Developer</title>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/devicons.min.css">
+    <link rel="stylesheet" href="//brick.a.ssl.fastly.net/Raleway:200,400,500,700,800,900">
+    <link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+  <div id="preloader">
+      <div id="status">&nbsp;</div>
+  </div>
+
+  <section id="hero">
+    <div class="overlay">
+      <div class="container">
+        <div class="row">
+          <div class="aligner">
+            <div class="aligner-item">
+              <h1 id="curved1">HIRE ME,</h1>
+              <p id="fittexty">PORTLAND</p>
+              <img id="dawn" src="img/dawn.png">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10">
+          <h1>I'm passionate about modern/minimal design, software culture, and collaboration. More than that, I seek inspiration, excitement, and pride through great work with passionate people.</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-xs-12">
+          <h1>About</h1>
+          <hr>
+          <p>My name is Sterling Houghton. I'm a web developer raised in California &amp; currently living in Portland. People lover, dream follower, constant collaborator, bridge builder, memory collector, wearer of aesthetically pleasing garments. Translating complex ideas into attractive and slick campaigns through technology excites me. Food is a best friend of mine, and I drink way too much coffee.</p>
+          <h1>Skills To Pay The Bills</h1>
+          <hr>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <ul class="nav-stacked list-unstyled">
+            <li class="wow fadeInLeftBig"><span class="devicons devicons-html5 black"></span>  HTML</li>
+            <li class="wow fadeInLeftBig"><span class="devicons devicons-css3 black"></span>  CSS</li>
+            <li class="wow fadeInLeftBig"><span class="devicons devicons-javascript black"></span>  JavaScript</li>
+            <li class="wow fadeInLeftBig"><span class="devicons devicons-bootstrap black"></span>  Bootstrap</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <ul class="nav-stacked list-unstyled">
+            <li class="wow fadeInLeftBig"><span class="devicons devicons-jquery black"></span>  jQuery</li>
+            <li class="wow fadeInLeftBig"><span class="devicons devicons-coffeescript black"></span>  CoffeeScript</li>
+            <li class="wow fadeInLeftBig"><span class="devicons devicons-ruby black"></span>  Ruby</li>
+            <li class="wow fadeInLeftBig"><span class="devicons devicons-ruby_on_rails black"></span>  Rails</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <ul class="nav-stacked list-unstyled">
+            <li class="wow fadeInRightBig"><span class="devicons devicons-sass black"></span>  Sass</li>
+            <li class="wow fadeInRightBig"><span class="devicons devicons-ember black"></span>  Ember.js</li>
+            <li class="wow fadeInRightBig"><span class="devicons devicons-nodejs_small black"></span>  Node.js</li>
+            <li class="wow fadeInRightBig"><span class="devicons devicons-github_badge black"></span>  Github</li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-xs-6">
+          <ul class="nav-stacked list-unstyled">
+            <li class="wow fadeInRightBig"><span class="devicons devicons-npm black"></span>  npm</li>
+            <li class="wow fadeInRightBig"><span class="devicons devicons-postgresql black"></span>  PostgreSQL</li>
+            <li class="wow fadeInRightBig"><span class="devicons devicons-mongodb black"></span>  MongoDB</li>
+            <li class="wow fadeInRightBig"><span class="devicons devicons-heroku black"></span>  Heroku</li>
+          </ul>
+        </div>
+      </div>
+        <hr style="margin-top: 60px;">
+        <div class="freelance">
+          <div class="row">
+            <div class="col-md-7 col-md-offset-1">
+              <h2><small>To contact me or just say hi:</small><br><a id="fittexty" href="mailto:sterlinghoughton@gmail.com">sterlinghoughton@gmail.com</a></h2>
+            </div>
+            <div class="col-md-2">
+              <img src="img/sh.jpg" class="img-circle">
+            </div>
+          </div>
+        </div>
+      </div>
+  </section>
+  <footer id="footer">
+    <div class="col-md-12 text-center">
+      <p>I have a friend named <a href="http://maceisen.com/">Mac.</a></p>
+      <p><small>&copy; 2014 Sterling Houghton.</small></p>
+    </div>
+
+  </footer>
+
+  <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/jquery.arctext.js"></script>
+  <script src="js/jquery.fittext.js"></script>
+  <script src="js/wow.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script type="text/javascript">
+
+    $(window).load(function() {
+      $('#status').fadeOut();
+      $('#preloader').delay(350).fadeOut('slow');
+      $('body').delay(350).css({'overflow':'visible'});
+      $('#curved1').arctext({radius: 400});
+      $('#dawn').addClass('animated bounce');
+      $("#curved1").fitText()
+      $("#fittexty").fitText()
+    })
+
+    new WOW().init();
+
+  </script>
+
+</body>
+</html>
