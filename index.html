@@ -112,6 +112,7 @@
   </footer>
 
   <script src="js/jquery-1.11.1.min.js"></script>
+  <script src="js/smoothscroll.js"></script>
   <script src="js/jquery.arctext.js"></script>
   <script src="js/jquery.fittext.js"></script>
   <script src="js/wow.min.js"></script>
@@ -124,8 +125,9 @@
       $('body').delay(350).css({'overflow':'visible'});
       $('#curved1').arctext({radius: 400});
       $('#dawn').addClass('animated bounce');
-      $("#curved1").fitText()
-      $("#fittexty").fitText()
+      $("#curved1").fitText();
+      $("#fittexty").fitText();
+      $("#intro").smoothScroll();
     })
 
     new WOW().init();
